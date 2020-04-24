@@ -1,0 +1,6 @@
+C:\Users\Will\source\repos\C2-2\C2-2\bin\Debug\C2-2.exe.config
+C:\Users\Will\source\repos\C2-2\C2-2\bin\Debug\C2-2.exe
+C:\Users\Will\source\repos\C2-2\C2-2\bin\Debug\C2-2.pdb
+C:\Users\Will\source\repos\C2-2\C2-2\obj\Debug\C2-2.csprojAssemblyReference.cache
+C:\Users\Will\source\repos\C2-2\C2-2\obj\Debug\C2-2.exe
+C:\Users\Will\source\repos\C2-2\C2-2\obj\Debug\C2-2.pdb
