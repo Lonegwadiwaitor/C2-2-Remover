@@ -16,7 +16,7 @@ namespace C2_2
         {
             Console.Title = "C2-2 Fixer by Gladiator#8906 cus im bored as fuck";
             Thread.Sleep(2000);
-            var discorddesktopcorepath = $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)}\\Discord\\0.0.306\\modules\\discord_desktop_core";
+            var discorddesktopcorepath = $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)}\\Discord\\0.0.308\\modules\\discord_desktop_core";
             if (!File.ReadAllText($"{discorddesktopcorepath}\\index.js").Equals("module.exports = require('./core.asar');"))
             {
                 Console.WriteLine("C2-2 detected, would you like to attempt removal? (Y/N)");
@@ -52,7 +52,7 @@ namespace C2_2
             // lists of files to delete
             List<string> filestodelete = new List<string>();
             List<string> dirstodelete = new List<string>();
-            var discorddesktopcorepath = $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)}\\Discord\\0.0.306\\modules\\discord_desktop_core";
+            var discorddesktopcorepath = $"{Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)}\\Discord\\0.0.308\\modules\\discord_desktop_core";
             // check for retarded anarchygrabber bullshit
             if (Directory.Exists($"{discorddesktopcorepath}\\4n4rchy") && File.ReadAllText($"{discorddesktopcorepath}\\index.js").Contains("process.env.anarchyHook"))
             {
